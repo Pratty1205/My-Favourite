@@ -1,0 +1,46 @@
+body {
+  text-align:center;
+  background:linear-gradient( #E1BEE7 0%,#90CAF9 100%);
+  background-repeat:no-repeat;
+}
+img  {
+  border-radius:50%;
+  width:100px;
+}
+h1 {
+  font-size:20px
+}
+p {
+  font-size:18px;
+  color:purple;
+}
+.line {
+  height:6px;
+  background-color:black;
+  width:70px;
+  margin:8px auto;
+}
+#bio {
+  padding:20px;
+  font-size:18;
+  text-align:center;
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+img:hover {
+    transform: scale(0.9);
+}
